@@ -1,0 +1,13 @@
+{
+    "description": "Set config values by accessing secrets encrypted by AWS KMS",
+    "files": ["ruby_task_helper/files/task_helper.rb",
+        "ruby_plugin_helper/lib/plugin_helper.rb"
+      ],
+    "input_method": "stdin",
+    "parameters": {
+      "cyphertext": {
+        "description": "The specific secret being used",
+        "type": "String"
+      }
+    }
+  }
