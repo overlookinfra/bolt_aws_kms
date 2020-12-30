@@ -8,6 +8,10 @@
       "cyphertext": {
         "description": "The specific secret being used",
         "type": "String"
+      },
+      "keyid": {
+        "description": "The ID of the AWS KMS key to use for decryption of the cyphertext",
+        "type": "[Optional]String"
       }
     }
   }
